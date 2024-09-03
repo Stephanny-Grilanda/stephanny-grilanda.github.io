@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+}
+
+.lista-cabeçalho {
+  display: inline;
+  margin: 20px;
+  font-size: large;
+  font-family: "Calibri";
+  font-weight: 600;
+  :hover {
+    color: #da4141;
+  }
+}
+
+.icones {
+  display: inline;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 12;
+  background-color: #350404;
+}
+
+.container {
+  display: grid;
+}
+
+.menu {
+  justify-items: center;
+  grid-column-start: 6;
+  grid-column-end: 12;
+  gap: 20px;
+}
+
+.principal {
+  justify-content: left;
+  grid-column-start: 4;
+  grid-column-end: 12;
+  text-align: center;
+  font-family: "Calibri";
+  margin-bottom: 20px;
+  margin-top: 10px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.paragrafo_principal {
+  color: black;
+  text-align: center;
+  font-size: larger;
+  font-family: "Calibri";
+  margin: 5px;
+  line-height: 35px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+h1 {
+  font-family: "Calibri";
+}
+
+h2 {
+  font-family: "Calibri";
+  color: #7e0707;
+}
+
+.formulario {
+  font-family: "Calibri";
+  font-size: larger;
+  margin-bottom: 100px;
+}
+
+.destaque_texto {
+  color: #7e0707;
+  font-weight: bold;
+}
+
+.paragrafo_formacao {
+  color: black;
+  text-align: left;
+  font-size: larger;
+  font-family: "Calibri";
+  margin: 5px;
+}
+
+.formacao {
+  margin-left: 10px;
+}
+
+.legenda {
+  display: block;
+  margin: 0;
+  color: black;
+  font-family: "Calibri";
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.projetos_container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 1rem;
+  -webkit-box-shadow: 9px 10px 23px -1px rgba(212, 212, 212, 1);
+  -moz-box-shadow: 9px 10px 23px -1px rgba(212, 212, 212, 1);
+  box-shadow: 9px 10px 23px -1px rgba(212, 212, 212, 1);
+  width: fit-content;
+  height: 200px;
+}
+
+.projeto a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paragrafo_lista {
+  color: black;
+  text-align: center;
+  font-size: medium;
+  font-family: "Calibri";
+  margin: 10px;
+  line-height: 35px;
+  text-wrap: wrap;
+}
+
+.projeto-imagem {
+  width: 150px;
+}
